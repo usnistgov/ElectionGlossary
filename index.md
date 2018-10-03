@@ -5,7 +5,7 @@
 
 - [Election Glossary including terms used in the next VVSG requirements.](#election-glossary-including-terms-used-in-the-next-vvsg-requirements)
 - [Under active development.](#under-active-development)
-- [<a name="absenteeballot"></a>absentee ballot](#a-nameabsenteeballotaabsentee-ballot)
+- [absentee ballot <a name="absenteeballot"></a>](#absentee-ballot-a-nameabsenteeballota)
 - [<a name="absenteevoting"></a>absentee voting](#a-nameabsenteevotingaabsentee-voting)
 - [<a name="acceptancetesting"></a>acceptance testing](#a-nameacceptancetestingaacceptance-testing)
 - [<a name="accesscontrol"></a>access control](#a-nameaccesscontrolaaccess-control)
