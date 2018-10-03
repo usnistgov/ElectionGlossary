@@ -5,8 +5,8 @@
 
 - [Election Glossary including terms used in the next VVSG requirements.](#election-glossary-including-terms-used-in-the-next-vvsg-requirements)
 - [Under active development.](#under-active-development)
-- [absentee ballot <a name="absenteeballot"></a>](#absentee-ballot-a-nameabsenteeballota)
-- [<a name="absenteevoting"></a>absentee voting](#a-nameabsenteevotingaabsentee-voting)
+- [absentee ballot](#absentee-ballot)
+- [absentee voting](#absentee-voting)
 - [<a name="acceptancetesting"></a>acceptance testing](#a-nameacceptancetestingaacceptance-testing)
 - [<a name="accesscontrol"></a>access control](#a-nameaccesscontrolaaccess-control)
 - [<a name="accessibility"></a>accessibility](#a-nameaccessibilityaaccessibility)
@@ -305,14 +305,19 @@
 
 <!-- /TOC -->
 
-# absentee ballot <a name="absenteeballot"></a>
+# absentee ballot
+<a name="absenteeballot"></a>
 Ballot used for [absentee voting](#absenteevoting).
 
 \#vvsg
-# <a name="absenteevoting"></a>absentee voting
+
+# absentee voting
+
+<a name="absenteevoting"></a>
 Voting that can occur unsupervised at a location chosen by the [voter](#voter) either before or on [election day](#electionday).
 
 \#vvsg
+
 # <a name="acceptancetesting"></a>acceptance testing
 Examination of a [voting system](#votingsystem) and by the purchasing [election jurisdiction](#electionjurisdiction) to validate:
  - the performance of delivered [devices](#device) to ensure they meet procurement requirements, and
