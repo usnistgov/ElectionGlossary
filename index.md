@@ -1,5 +1,5 @@
-# Election Glossary including terms used in the next VVSG requirements.
-# Under active development.
+# Election Glossary
+	This glossary contains election terms including terms to be used in the next VVSG requirements and glossary and in the Common Data Format specifications.  The glossary was built via a joint effort by The Democracy Fund, the VVSG Election Modeling public working group, NIST, and other individuals in the election community.
 
 <!-- TOC depthFrom:1 depthTo:1 withLinks:1 updateOnSave:0 orderedList:1 -->
 
@@ -566,6 +566,8 @@ Used in next VVSG
 ##  blank ballot
 An issued [ballot](#ballot) without any selections made.
 
+<a name="C"></a>
+# C
 Used in next VVSG
 <a name="candidate"></a>
 ##  candidate
@@ -746,6 +748,8 @@ Used in next VVSG
 Measures taken to protect computer systems and data from attack and unauthorized access or use.
 
 Used in next VVSG
+<a name="D"></a>
+# D
 <a name="decertification"></a>
 ##  decertification
 Revocation of national or state certification of a [voting system](#votingsystem) or any of its [components](#component).
@@ -790,6 +794,8 @@ Used in next VVSG
 A password that changes at a defined interval or event.
 
 Used in next VVSG
+<a name="E"></a>
+# E
 <a name="EAC"></a>
 ##  EAC
 Election Assistance Commission, created by the [Help America Vote Act](#HelpAmericaVoteAct) (HAVA) to assist the states regarding HAVA compliance and to distribute HAVA funds to the states. The [EAC](#EAC) is also charged with creating [voting system](#votingsystem) guidelines and operating the federal government's first [voting system](#votingsystem) certification program. The [EAC](#EAC) is also responsible for maintaining the National [Voter](#voter) Registration form, conducting research, and administering a national clearinghouse on [elections](#election) that includes shared practices, information for [voters](#voter), and other resources to improve [elections](#election).
@@ -970,6 +976,8 @@ A mark on a [paper ballot](#paperballot) that appears to be unrelated to the act
   a mark made unintentionally by a [voter](#voter) that is obviously not related to making a selection; a hesitation mark, a dot within or outside of the target area made by resting a pen or pencil on the [ballot](#ballot); written notes or identifying information not related to indication of the voter's selection; or printing defects.
 
 Used in next VVSG
+<a name="F"></a>
+# F
 <a name="failure"></a>
 ##  failure
 Looking at [voting system](#votingsystem) reliability, a [failure](#failure) is an event that results in:
@@ -1024,6 +1032,8 @@ Used in next VVSG
 Test performed to verify or validate the accomplishment of one or more functions.
 
 Used in next VVSG
+<a name="G"></a>
+# G
 <a name="generalelection"></a>
 ##  general election
 Regularly scheduled [election](#election) in which all [eligible voters](#eligiblevoters), regardless of party [affiliation](#affiliation), are permitted to select [candidates](#candidate) to fill public [office](#office) and [vote](#vote) on [ballot measures](#ballotmeasure).
@@ -1039,6 +1049,8 @@ Used in next VVSG
 Describes units of geopolitical geography so that they can be associated with [contests](#contest), [offices](#office), [ballot styles](#ballotstyle), and [election](#election) results.
 
 Used in next VVSG
+<a name="H"></a>
+# H
 <a name="hardware"></a>
 ##  hardware
 The physical, tangible, mechanical, or electromechanical [components](#component) of a system.
@@ -1049,6 +1061,8 @@ Used in next VVSG
 Act passed by the U.S. Congress in 2002 to make sweeping reforms to the nation's [voting process](#votingprocess). HAVA addresses improvements to [voting systems](#votingsystem) and [voter](#voter) access that were identified following the 2000 [election](#election).
 
 Used in next VVSG
+<a name="I"></a>
+# I
 <a name="implementationstatement"></a>
 ##  implementation statement
 Statement by a [manufacturer](#manufacturer) indicating the capabilities, features, and optional functions as well as extensions that have been implemented. Also known as implementation [conformance](#conformance) statement.
@@ -1099,10 +1113,14 @@ Used in next VVSG
 A [hardware](#hardware) or software application that detects and blocks a suspected security breach, policy violation or other compromise that may adversely affect the network.
 
 Used in next VVSG
+<a name="K"></a>
+# K
 <a name="keymanagement"></a>
 ##  key management
 Activities involving handling of [cryptographic keys](#cryptographickey) and other related security parameters (such as passwords) during the entire [life cycle](#lifecycle) of the keys, including their generation, storage, establishment, entry and output, zeroization, and revocation.
 
+<a name="L"></a>
+# L
 Used in next VVSG
 <a name="lifecycle"></a>
 ##  life cycle
@@ -1134,6 +1152,8 @@ Used in next VVSG
 An [interaction mode](#interactionmode) with [accessibility](#accessibility) features for [voters](#voter) with no use of one or both hands or low dexterity.
 
 Used in next VVSG
+<a name="M"></a>
+# M
 <a name="machineunreadablemark"></a>
 ##  machine unreadable mark
 Mark in a [contest selection](#contestselection) position of a [paper ballot](#paperballot) that cannot be detected as readable or marginal by a scanner, and may require human [adjudication](#adjudication).
@@ -1197,6 +1217,8 @@ Used in next VVSG
 Term as used in [election](#election) contexts to signify a jurisdiction such as city, [town](#town), or village that has some form of local government for which [elections](#election) are generally conducted.
 
 Used in next VVSG
+<a name="N"></a>
+# N
 <a name="N-of-M"></a>
 ##  N-of-M
 Voting method in which the [voter](#voter) is entitled to allocate a fixed number of [votes](#vote) (N) over a list of M [contest options](#contestoption) or [write-in options](#write-inoption), with the constraint that at most 1 [vote](#vote) may be allocated to a given [contest option](#contestoption). This usually occurs when multiple [seats](#seat) are concurrently being filled in a governing body such as a city council or school board where [candidates](#candidate) run at-large. The [voter](#voter) is not obliged to allocate all N [votes](#vote).
@@ -1245,6 +1267,8 @@ Used in next VVSG
 Document providing further guidance and explanation on the requirements and procedures of the EAC's [Voting System](#votingsystem) Certification or [Voting System](#votingsystem) Testing Laboratory (VSTL) programs. NOCs may be issued in response to a clarification request from an [EAC](#EAC) [voting system](#votingsystem) [test](#test) laboratory or an [EAC](#EAC) registered [manufacturer](#manufacturer). [EAC](#EAC) may also issue NOCs when it determines general clarifications are necessary.
 
 Used in next VVSG
+<a name="O"></a>
+# O
 <a name="observationaltest"></a>
 ##  observational test
 Operational [test](#test) conducted on [voting devices](#votingdevice) during an [election](#election) by real [voters](#voter) to establish confidence that the [voter](#voter) verified paper [record](#record) is produced correctly when [assistive technology](#assistivetechnology) is used.
@@ -1285,6 +1309,8 @@ Used in next VVSG
 Occurs when the number of selections made by a [voter](#voter) in a [contest](#contest) is more than the maximum number allowed. The number of allowed selections is equal to the number of [votes](#vote) lost. For example, if three selections are made in a vote-for-two [contest](#contest), the number of [votes](#vote) lost is two.
 
 Used in next VVSG
+<a name="P"></a>
+# P
 <a name="paperballot"></a>
 ##  paper ballot
 A piece of paper, or multiple sheets of paper, on which all [contest options](#contestoption) of a given [ballot style](#ballotstyle) are printed.
@@ -1444,11 +1470,15 @@ Used in next VVSG
 An abbreviated logic and accuracy [test](#test) of voting equipment, pre-announced in public media and open to public attendance, usually in [conformance](#conformance) with specific [election](#election) calendar timing.
 
 Used in next VVSG
+<a name="Q"></a>
+# Q
 <a name="QRCode"></a>
 ##  QR Code
 Quick Response Code. A 2-D, trademarked bar code. Some [voting systems](#votingsystem) will encode the voter's selections in a [QR Code](#QRCode) that can be read on a scanner in the [precinct](#precinct) and converted to a printed [ballot](#ballot).
 
 Used in next VVSG
+<a name="">R</a>
+# R
 <a name="rangevoting"></a>
 ##  range voting
 A [voting method](#votingmethod) for single-seat [contests](#contest), in which [voters](#voter) give each [candidate](#candidate) a score, the scores are added (or averaged), and the [candidate](#candidate) with the highest total is elected.
@@ -1543,6 +1573,8 @@ Used in next VVSG
 Election to select a winner following a primary or a [general election](#generalelection), in which no [candidate](#candidate) in the [contest](#contest) received the required minimum percentage of the [votes](#vote) [cast](#cast). The two [candidates](#candidate) receiving the most [votes](#vote) for the [contest](#contest) in question proceed to a [runoff election](#runoffelection).
 
 Used in next VVSG
+<a name="S"></a>
+# S
 <a name="seat"></a>
 ##  seat
 An [elected office](#electedoffice) position that a single officeholder may occupy for a term of [office](#office).
@@ -1629,6 +1661,8 @@ Used in next VVSG
 Administrative unit that is the entire scope within which the [voting system](#votingsystem) is used (for example, a county). The [system extent](#systemextent) corresponds to the top-level reporting context for which the system generates [reports](#report).
 
 Used in next VVSG
+<a name="T"></a>
+# T
 <a name="t-coil"></a>
 ##  t-coil
 Inductive coil used in some hearing aids to allow reception of an audio band magnetic field signal instead of an acoustic signal. The magnetic or inductive mode of reception is commonly used in conjunction with telephones, auditorium loop systems, and other systems that provide the required magnetic field output.
@@ -1700,6 +1734,8 @@ Used in next VVSG
 A widely used unit of local government in the United States, subordinate to a county, with some form of local government for which it generally conducts [elections](#election).
 
 Used in next VVSG
+<a name="U"></a>
+# U
 <a name="undervote"></a>
 ##  undervote
 Occurs when the number of [voter](#voter) selections in a [contest](#contest) is less than the maximum number allowed for that [contest](#contest) or when no selection is made. The number of [undervotes](#undervote) is equal to the number of [votes](#vote) lost, for example, if no selection is made in a [vote](#vote) for two [contest](#contest) the number of [votes](#vote) lost is two.
@@ -1730,6 +1766,8 @@ Used in next VVSG
 Functional [failure](#failure) that can be remedied by a troubleshooter or [election official](#electionofficial) using only knowledge found in voting equipment user documentation.
 
 Used in next VVSG
+<a name="V"></a>
+# V
 <a name="validvote"></a>
 ##  valid vote
 See [contest option vote](#contestoptionvote).
@@ -1849,6 +1887,8 @@ Used in next VVSG
 Privately owned testing laboratories that [test](#test) [voting systems](#votingsystem) (and other [election](#election) systems) for [conformance](#conformance) to the Voluntary [Voting System](#votingsystem) Guidelines (VVSG) or to other requirements, including individual state requirements. VSTLs are periodically reviewed for [conformance](#conformance) to National Voluntary Laboratory [Accreditation](#accreditation) Program (NVLAP) administered by the National Institute for [Standards](#standard) and Technology (NIST).
 
 Used in next VVSG
+<a name="W"></a>
+# W
 <a name="whiteboxtesting"></a>
 ##  white box testing
 Testing based on an analysis of the internal structure of the [component](#component) or system.
