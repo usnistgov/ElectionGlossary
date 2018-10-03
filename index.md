@@ -305,7 +305,7 @@
 
 <!-- /TOC -->
 
-# <a name="absenteeballot"></a>absentee ballot
+# absentee ballot <a name="absenteeballot"></a>
 Ballot used for [absentee voting](#absenteevoting).
 
 \#vvsg
