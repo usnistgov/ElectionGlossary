@@ -2,7 +2,40 @@
 	This glossary contains election terms including those to be used in the next VVSG requirements and glossary and in the Common
 	Data Format specifications.  The glossary is being built via a joint effort by The Democracy Fund, the VVSG Election Modeling
 	public working group, NIST, and other individuals in the election community.
-
+<br><br>
+	<table border="1" cellspacing="1" cellpadding="0">
+<tbody>
+<tr>
+<td class="align-left" style="text-align: left;"><a href="#A"#>A</a></td>
+<td class="align-left" style="text-align: left;"><a href="#B"#>B</a></td>
+<td class="align-left" style="text-align: left;"><a href="#C"#>C</a></td>
+<td class="align-left" style="text-align: left;"><a href="#D"#>D</a></td>
+<td class="align-left" style="text-align: left;"><a href="#E"#>E</a></td>
+<td class="align-left" style="text-align: left;"><a href="#F"#>F</a></td>
+<td class="align-left" style="text-align: left;"><a href="#G"#>G</a></td>
+<td class="align-left" style="text-align: left;"><a href="#H"#>H</a></td>
+<td class="align-left" style="text-align: left;"><a href="#I"#>I</a></td>
+<td class="align-left" style="text-align: left;"><a href="#J"#>J</a></td>
+<td class="align-left" style="text-align: left;"><a href="#K"#>K</a></td>
+<td class="align-left" style="text-align: left;"><a href="#L"#>L</a></td>
+<td class="align-left" style="text-align: left;"><a href="#M"#>M</a></td>
+<td class="align-left" style="text-align: left;"><a href="#N"#>N</a></td>
+<td class="align-left" style="text-align: left;"><a href="#O"#>O</a></td>
+<td class="align-left" style="text-align: left;"><a href="#P"#>P</a></td>
+<td class="align-left" style="text-align: left;"><a href="#Q"#>Q</a></td>
+<td class="align-left" style="text-align: left;"><a href="#R"#>R</a></td>
+<td class="align-left" style="text-align: left;"><a href="#S"#>S</a></td>
+<td class="align-left" style="text-align: left;"><a href="#T"#>T</a></td>
+<td class="align-left" style="text-align: left;"><a href="#U"#>U</a></td>
+<td class="align-left" style="text-align: left;"><a href="#V"#>V</a></td>
+<td class="align-left" style="text-align: left;"><a href="#W"#>W</a></td>
+<td class="align-left" style="text-align: left;"><a href="#X"#>X</a></td>
+<td class="align-left" style="text-align: left;"><a href="#Y"#>Y</a></td>
+<td class="align-left" style="text-align: left;"><a href="#Z"#>Z</a></td>
+</tr>
+</tbody>
+</table>
+<br><br>
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:0 orderedList:0 -->
 
 - [A](#a)
