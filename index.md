@@ -1,5 +1,5 @@
-# Election Glossary - Draft
-	This glossary contains election terms including terms to be used in the next VVSG requirements and glossary and in the Common
+# Election Terms Glossary - Draft
+	This glossary contains election terms including those to be used in the next VVSG requirements and glossary and in the Common
 	Data Format specifications.  The glossary is being built via a joint effort by The Democracy Fund, the VVSG Election Modeling
 	public working group, NIST, and other individuals in the election community.
 
@@ -7,14 +7,14 @@
 
 - [A](#a)
 	- [absentee ballot](#absentee-ballot)
-- [absentee voting](#absentee-voting)
+	- [absentee voting](#absentee-voting)
 	- [acceptance testing](#acceptance-testing)
-		- [access control](#access-control)
-		- [accessibility](#accessibility)
-		- [accreditation](#accreditation)
-		- [accreditation body](#accreditation-body)
-		- [activation device](#activation-device)
-		- [active period](#active-period)
+	- [access control](#access-control)
+	- [accessibility](#accessibility)
+	- [accreditation](#accreditation)
+	- [accreditation body](#accreditation-body)
+	- [activation device](#activation-device)
+	- [active period](#active-period)
 	- [adjudication](#adjudication)
 	- [adjudication-required ballot](#adjudication-required-ballot)
 	- [affiliation](#affiliation)
