@@ -1,11 +1,11 @@
 # Election Glossary including terms used in the next VVSG requirements.
 # Under active development.
 
-<!-- TOC depthFrom:1 depthTo:1 withLinks:1 updateOnSave:0 orderedList:0 -->
+<!-- TOC depthFrom:1 depthTo:1 withLinks:1 updateOnSave:0 orderedList:1 -->
 
 - [A](#a)
 	- [absentee ballot](#absentee-ballot)
-- [absentee voting](#absentee-voting)
+	- [absentee voting](#absentee-voting)
 	- [acceptance testing](#acceptance-testing)
 	- [adjudication](#adjudication)
 	- [adjudication-required ballot](#adjudication-required-ballot)
