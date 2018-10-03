@@ -1,5 +1,7 @@
 # Election Glossary
-	This glossary contains election terms including terms to be used in the next VVSG requirements and glossary and in the Common Data Format specifications.  The glossary was built via a joint effort by The Democracy Fund, the VVSG Election Modeling public working group, NIST, and other individuals in the election community.
+	This glossary contains election terms including terms to be used in the next VVSG requirements and glossary and in the Common
+	Data Format specifications.  The glossary was built via a joint effort by The Democracy Fund, the VVSG Election Modeling public
+	working group, NIST, and other individuals in the election community.
 
 <!-- TOC depthFrom:1 depthTo:1 withLinks:1 updateOnSave:0 orderedList:1 -->
 
@@ -566,9 +568,11 @@ Used in next VVSG
 ##  blank ballot
 An issued [ballot](#ballot) without any selections made.
 
+
+Used in next VVSG
 <a name="C"></a>
 # C
-Used in next VVSG
+
 <a name="candidate"></a>
 ##  candidate
 Person contending in a [contest](#contest) for [office](#office). A [candidate](#candidate) may be explicitly presented as one of the [contest options](#contestoption) or may be a write-in [candidate](#candidate).
@@ -750,6 +754,7 @@ Measures taken to protect computer systems and data from attack and unauthorized
 Used in next VVSG
 <a name="D"></a>
 # D
+
 <a name="decertification"></a>
 ##  decertification
 Revocation of national or state certification of a [voting system](#votingsystem) or any of its [components](#component).
