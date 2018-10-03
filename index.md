@@ -1,7 +1,7 @@
 # Election Glossary including terms used in the next VVSG requirements.
 # Under active development.
 
-<!-- TOC depthFrom:1 depthTo:2 withLinks:1 updateOnSave:0 orderedList:0 -->
+<!-- TOC depthFrom:1 depthTo:1 withLinks:1 updateOnSave:0 orderedList:0 -->
 
 - [A](#a)
 	- [absentee ballot](#absentee-ballot)
