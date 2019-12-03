@@ -1,7 +1,8 @@
-# Election Terms Glossary - Draft
-	This glossary contains election terms including those to be used in the next VVSG requirements and glossary and in the Common
-	Data Format specifications.  The glossary is being built via a joint effort by The Democracy Fund, the VVSG Election Modeling
-	public working group, NIST, and other individuals in the election community.
+# Election Terminology Glossary - Draft
+	This glossary contains election terms including those used in the next Voluntary Voting System Guidelines (VVSG) requirements and glossary, and in the NIST Common
+	Data Format (CDF) specifications.  The glossary is being built via a joint effort by The Democracy Fund, the VVSG Election Modeling
+	public working group, NIST, and other individuals in the election community.  The Democracy Fund in particular has recognized that a glossary of common election terms would help
+	states and others working in elections to all "speak the same language."  The glossary provides synonyms and as much as is possible, descriptions of how a term's meaning may differ depending on its usage across different states and territories.
 
 
 # VVSGTerm Glossary
@@ -117,7 +118,7 @@ Information [recorded](#record) during [election](#election) activities to recon
 
 
 ## <a name="authentication"></a>authentication
-Verifying the identity of a user, process, or [device](#device), often as a prerequisite to allowing access to resources in an information system. [Audit trails](#audit-trail) may include event logs, paper [records](#record), error messages, and [reports](#report). 
+Verifying the identity of a user, process, or [device](#device), often as a prerequisite to allowing access to resources in an information system. [Audit trails](#audit-trail) may include event logs, paper [records](#record), error messages, and [reports](#report).
 
 
 ## <a name="ballot"></a>ballot
@@ -199,7 +200,7 @@ A collection of [paper ballots](#paper-ballot) gathered as a group for tabulatio
 
 
 ## <a name="batch-fed-scanner"></a>batch fed scanner
-An electronic [voting device](#voting-device) that: 
+An electronic [voting device](#voting-device) that:
  - accepts stacks of hand-marked or BMD-produced [paper ballots](#paper-ballot) and automatically processes them until the stack is empty;
  - is usually used at an [election jurisdiction](#election-jurisdiction)'s central location;
  - is mostly commonly used to process absentee or mail [ballots](#ballot);
@@ -355,7 +356,7 @@ A cryptographic algorithm that computes a numerical value based on a data file o
 
 
 ## <a name="cryptographic-key"></a>cryptographic key
-A numeric value used as input to cryptographic operations, such as [decryption](#decryption), [encryption](#encryption), signature generation, or verification of a [digital signature](#digital-signature). 
+A numeric value used as input to cryptographic operations, such as [decryption](#decryption), [encryption](#encryption), signature generation, or verification of a [digital signature](#digital-signature).
 
 
 ## <a name="cryptography"></a>cryptography
@@ -486,7 +487,7 @@ A system that:
 Synonyms: `Election Night Reporting`
 ## <a name="election-system"></a>election system
 1. A technology-based system that is used to collect, process, and store data related to [elections](#election) and election administration. In addition to [voter](#voter) registration systems and public election websites, election systems include [voting systems](#voting-system), [vote](#vote) tabulation systems, [electronic poll books](#electronic-poll-book), [election results reporting systems](#Election-Results-Reporting-System), and auditing [devices](#device).
-2. Entire array of procedures, people, resources, equipment, and locations associated with conducting elections. 
+2. Entire array of procedures, people, resources, equipment, and locations associated with conducting elections.
 
 
 ## <a name="election-worker"></a>election worker
@@ -679,7 +680,7 @@ Systems engineering concept that identifies the phases that a system passes thro
 
 
 ## <a name="locality"></a>locality
-Generic term used in [election](#election) contexts to signify a [town](#town), village or city contained within an [election jurisdiction](#election-jurisdiction), such as a county. 
+Generic term used in [election](#election) contexts to signify a [town](#town), village or city contained within an [election jurisdiction](#election-jurisdiction), such as a county.
 
 
 ## <a name="logic-and-accuracy-testing"></a>logic and accuracy testing
@@ -973,7 +974,7 @@ A [vote variation](#vote-variation) for single-seat [contests](#contest), in whi
 
 
 ## <a name="ranked-choice-voting"></a>ranked choice voting
-A [vote variation](#vote-variation): 
+A [vote variation](#vote-variation):
  - which allows each [voter](#voter) to rank [contest options](#contest-option) in order of the voter's preference,
  - in which [votes](#vote) are counted in rounds using a series of runoff tabulations to defeat contest options with the fewest votes, and,
  - which elects a winner with a majority of final round votes in a single-winner [contest](#contest) and provides proportional representation in multi-winner contests.
@@ -1234,7 +1235,7 @@ A [multi-seat contest](#multi-seat-contest) in which [voters](#voter) are allowe
 
 
 ## <a name="vote-variation"></a>vote variation
-Voting style or feature, including but not limited to the following: [approval voting](#approval-voting), borda count, [cumulative voting](#cumulative-voting), [n-of-m voting](#N-of-M-voting), [plurality voting](#plurality-voting), [proportional voting](#proportional-voting), [range voting](#range-voting), [ranked choice voting](#ranked-choice-voting) and super [majority voting](#majority-voting). 
+Voting style or feature, including but not limited to the following: [approval voting](#approval-voting), borda count, [cumulative voting](#cumulative-voting), [n-of-m voting](#N-of-M-voting), [plurality voting](#plurality-voting), [proportional voting](#proportional-voting), [range voting](#range-voting), [ranked choice voting](#ranked-choice-voting) and super [majority voting](#majority-voting).
 
 
 ## <a name="vote-by-mail"></a>vote-by-mail
@@ -1320,10 +1321,8 @@ Network connectivity using radio waves instead of wire connections.
 
 
 ## <a name="write-in-option"></a>write-in option
-A type of [contest option](#contest-option) that allows a [voter](#voter) to specify a [candidate](#candidate), usually not already listed as a contest option. Depending on [election jurisdiction](#election-jurisdiction) rules, in some cases only previously approved names will be considered as valid write-in [contest selections](#contest-selection). 
+A type of [contest option](#contest-option) that allows a [voter](#voter) to specify a [candidate](#candidate), usually not already listed as a contest option. Depending on [election jurisdiction](#election-jurisdiction) rules, in some cases only previously approved names will be considered as valid write-in [contest selections](#contest-selection).
 
 
 ## <a name="zero-report"></a>zero report
 A [tabulation report](#tabulation-report) produced at the opening of polls to check that there are no stored [votes](#vote).
-
-
