@@ -166,7 +166,7 @@ Synonyms: `ballot issue`, `ballot proposition`, `ballot question`, `referendum`
 A [contest option](#contest-option) that specifies a response to a [ballot measure](#ballot-measure).
 
 
-## <a name="ballot-on-demandÂ®"></a>ballot on demandÂ®
+## <a name="ballot-on-demand®"></a>ballot on demand®
 A process that produces a [paper ballot](#paper-ballot) of the required [ballot style](#ballot-style) that meets a specific [voter](#voter)'s needs. The use of this process requires:
  - a system with a printer that can create a tabulatable paper ballot; and
  - a [device](#device) driving the printer that has all the data needed to print each ballot style and allows selection of the needed style.
