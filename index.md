@@ -169,10 +169,12 @@ A [device](#device) that:
  - produces a human-readable [paper ballot](#paper-ballot), and
  - does not make any other lasting [record](#record) of the [voter](#voter)'s selections.
 
+
 Synonyms: `BMD`, `EBM`, `electronic ballot marker`
 
 ## <a name="ballot-measure"></a>ballot measure
 A question that appears on a [ballot](#ballot) with options, usually in the form of an approval or rejection.
+
 
 Synonyms: `ballot issue`, `ballot proposition`, `ballot question`, `referendum`
 
@@ -237,6 +239,7 @@ An electronic [voting device](#voting-device) that:
  - [tabulates](#tabulate) and [reports](#report) [contest](#contest) results as required.
  This unit was previously referred to as central count optical scanner or CCOS.
 
+
 Synonyms: `CCOS`, `central tabulator`, `central-count optical scanner`, `high-speed optical scanner`
 
 ## <a name="benchmark"></a>benchmark
@@ -245,6 +248,7 @@ Quantitative point of reference to which the measured performance of a system or
 
 ## <a name="blank-ballot"></a>blank ballot
 An issued [ballot](#ballot) without any selections made.
+
 
 Synonyms: `unmarked ballot`
 
@@ -277,8 +281,10 @@ The process of compiling, reviewing, and validating [election](#election) return
 
 Synonyms: `voted ballot`
 
+
 ## <a name="cast-vote-record"></a>cast vote record
 Archival tabulatable [record](#record) of a set of [contest selections](#contest-selection) produced by a single [voter](#voter) as interpreted by the [voting system](#voting-system).
+
 
 Synonyms: `CVR`
 
