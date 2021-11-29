@@ -2,8 +2,10 @@
 <script src="https://pages.nist.gov/nist-header-footer/js/jquery-1.9.0.min.js" type="text/javascript" defer="defer"></script>
 <script src="https://pages.nist.gov/nist-header-footer/js/nist-header-footer.js" type="text/javascript" defer="defer"></script>
 
-# Election Terminology Glossary - Draft
-> This glossary contains election terms including those used in the next Voluntary Voting System Guidelines (VVSG) requirements and glossary, and in the NIST Common Data Format (CDF) specifications.  The glossary is being built via a joint effort by The Democracy Fund, the VVSG Election Modeling public working group, NIST, and other individuals in the election community.  The Democracy Fund in particular has recognized that a glossary of common election terms would help states and others working in elections to all "speak the same language."  The glossary provides synonyms and as much as is possible, descriptions of how a term's meaning may differ depending on its usage across different states and territories.
+# Election Terminology Glossary
+> This glossary contains election terms including those used in the  Voluntary Voting System Guidelines 2.0 (VVSG 2.0) requirements and glossary, and in the NIST Common Data Format (CDF) specifications.  The glossary was  built via a joint effort by The Democracy Fund, the VVSG Election Modeling public working group, NIST, and other individuals in the election community.  The Democracy Fund in particular has recognized that a glossary of common election terms would help states and others working in elections to all "speak the same language."  The glossary provides synonyms and as much as is possible, descriptions of how a term's meaning may differ depending on its usage across different states and territories.
+
+<font size="+2">A:</font>
 
 ## <a name="absentee-ballot"></a>absentee ballot
 [Ballot](#ballot) used for [absentee voting](#absentee-voting).
@@ -12,22 +14,23 @@
 Synonyms: `mail ballot`, `postal ballot`
 
 ## <a name="absentee-voting"></a>absentee voting
-Voting that can occur unsupervised at a location chosen by the [voter](#voter) either before or on [election day](#election-day).
+Voting that is typically unsupervised at a location chosen by the [voter](#voter) either before or on [election day](#election-day).
 
 
 Synonyms: `all-mail voting`, `mail voting`, `postal voting`, `vote-by-mail`
-
-## <a name="acceptance-testing"></a>acceptance testing
-Examination of a [voting system](#voting-system) and by the purchasing [election jurisdiction](#election-jurisdiction) to validate:
- - the performance of delivered [devices](#device) to ensure they meet procurement requirements, and
- - that the delivered system is, in fact, the certified system purchased.
- This usually happens in a simulated-use environment.
 
 
 ## <a name="access-control"></a>access control
 The process of granting or denying specific requests to:
  - obtain and use information and related information processing services; and
  - enter specific physical facilities.
+
+
+## <a name="acceptance-testing"></a>acceptance testing
+Examination of a [voting system](#voting-system) and by the purchasing [election jurisdiction](#election-jurisdiction) to validate:
+ - the performance of delivered [devices](#device) to ensure they meet procurement requirements, and
+ - that the delivered system is, in fact, the certified system purchased.
+ This usually happens in a simulated-use environment.
 
 
 ## <a name="accessibility"></a>accessibility
@@ -66,12 +69,18 @@ Process of resolving flagged [cast ballots](#cast-ballot) to reflect [voter inte
 A [ballot](#ballot) that contains [contest selections](#contest-selection) that require [adjudication](#adjudication).
 
 
+## <a name="administrato"></a>adminstrator
+A [voting system](#voting-system) user with the highest level of access.
+
+Synonyms: `admin`, `highest level of authorized user`
+
+
 ## <a name="air-gap"></a>air gap
 A physical separation between systems that requires data to be moved by some external, manual procedure.
 
 
 ## <a name="alert-time"></a>alert time
-The amount of time that a [voting device](#voting-device) will wait for detectible [voter](#voter) activity after issuing an alert, before going into an inactive state requiring [election worker](#election-worker) intervention.
+During a voting session, the amount of time that a [voting device](#voting-device) will wait for detectible [voter](#voter) activity after issuing an alert before going into an inactive state requiring [election worker](#election-worker) intervention.
 
 
 ## <a name="alternative-format"></a>alternative format
@@ -101,7 +110,7 @@ A [device](#device) that improves or maintains the capabilities of people with d
 
 
 ## <a name="audio-format"></a>audio format
-A [ballot display format](#ballot-display-format) in which [contest options](#contest-option) and other information are communicated through sound and speech.
+A [display format](#ballot-display-format) in which [contest options](#contest-option) and other information are communicated through sound and speech.
 
 
 Synonyms: `audio ballot`
@@ -117,11 +126,11 @@ Synonyms: `audio ballot`
 
 
 ## <a name="audit-trail"></a>audit trail
-Information [recorded](#record) during [election](#election) activities to reconstruct steps followed or to later verify actions taken with respect to the [voting system](#voting-system).
+Information [recorded](#record) during [election](#election) activities to reconstruct steps followed or to later verify actions taken with respect to the [voting system](#voting-system).  Audit trails may include event logs, paper records, error messages, and reports.
 
 
 ## <a name="authentication"></a>authentication
-Verifying the identity of a user, process, or [device](#device), often as a prerequisite to allowing access to resources in an information system. [Audit trails](#audit-trail) may include event logs, paper [records](#record), error messages, and [reports](#report).
+Verifying the identity of a user, process, or [device](#device), often as a prerequisite to allowing access to resources in an information system.
 
 
 ## <a name="ballot"></a>ballot
@@ -139,7 +148,7 @@ A list of [contests](#contest) and associated options that may appear on a [ball
 
 
 ## <a name="ballot-display-format"></a>ballot display format
-The concrete presentation of the contents of a [ballot](#ballot) appropriate to the particular voting technology being used. The contents may be rendered using various methods of presentation (visual or audio), language, or graphics.
+The concrete presentation of the contents of a [ballot](#ballot) or other information for the voter or election pfficial appropriate to the particular voting technology being used. The contents may be rendered using various methods of presentation (visual or audio), language, or graphics.
 
 
 ## <a name="ballot-image"></a>ballot image
@@ -160,12 +169,10 @@ A [device](#device) that:
  - produces a human-readable [paper ballot](#paper-ballot), and
  - does not make any other lasting [record](#record) of the [voter](#voter)'s selections.
 
-
 Synonyms: `BMD`, `EBM`, `electronic ballot marker`
 
 ## <a name="ballot-measure"></a>ballot measure
 A question that appears on a [ballot](#ballot) with options, usually in the form of an approval or rejection.
-
 
 Synonyms: `ballot issue`, `ballot proposition`, `ballot question`, `referendum`
 
@@ -195,7 +202,7 @@ A goal of [voting systems](#voting-system) to ensure that no [contest selections
 
 
 ## <a name="ballot-style"></a>ballot style
-[Ballot data](#ballot-data) that has been put into [contest](#contest) order for a particular [precinct](#precinct) and considers a particular set of [voter](#voter) situations. Voter situations include party affiliation (for [closed primaries](#closed-primary)), and age of the voter (in states that permit 17-year-olds to [vote](#vote) in [primary elections](#primary-election)), among others.
+[Ballot data](#ballot-data) that has been put into [contest](#contest) order for a particular [precinct](#precinct) or precinct split and considers a particular set of [voter](#voter) situations. Voter situations include party affiliation (for [closed primaries](#closed-primary)), and age of the voter (in states that permit 17-year-olds to [vote](#vote) in [primary elections](#primary-election)), among others.
 
 
 ## <a name="barcode"></a>barcode
@@ -222,14 +229,13 @@ A collection of [paper ballots](#paper-ballot) gathered as a group for tabulatio
 An electronic [voting device](#voting-device) that:
  - accepts stacks of hand-marked or BMD-produced [paper ballots](#paper-ballot) and automatically processes them until the stack is empty;
  - is usually used at an [election jurisdiction](#election-jurisdiction)'s central location;
- - is mostly commonly used to process [absentee ballots](#absentee-ballot);
+ - is most commonly used to process [absentee ballots](#absentee-ballot);
  - usually has input and output hoppers for [ballots](#ballot);
  - scans a ballot and rejects it if either unreadable or un-processable;
  - detects, interprets, and validates [contest selections](#contest-selection);
  - detects and sorts (either digitally or physically) ballots that are unreadable or un-processable, or that contain undeterminable selections, marking exceptions, or write-ins; and
  - [tabulates](#tabulate) and [reports](#report) [contest](#contest) results as required.
  This unit was previously referred to as central count optical scanner or CCOS.
-
 
 Synonyms: `CCOS`, `central tabulator`, `central-count optical scanner`, `high-speed optical scanner`
 
@@ -240,8 +246,11 @@ Quantitative point of reference to which the measured performance of a system or
 ## <a name="blank-ballot"></a>blank ballot
 An issued [ballot](#ballot) without any selections made.
 
-
 Synonyms: `unmarked ballot`
+
+## <a name="Bluetooth"></a>Bluetooth
+A wireless  protocol that  allows  two  similarly  equipped  devices  to  communicate  with  each  other within  a short  distance,  e.g.,  30  ft.
+
 
 ## <a name="callable-unit"></a>callable unit
 (Of a software program or logical design) Function, method, operation, subroutine, procedure, or analogous structural unit that appears within a [module](#module).
@@ -266,14 +275,10 @@ The process of compiling, reviewing, and validating [election](#election) return
 ## <a name="cast-ballot"></a>cast ballot
 [Ballot](#ballot) in which the [voter](#voter) has taken final action in selecting [contest options](#contest-option) and irrevocably confirmed their intent to [vote](#vote) as selected.
 
-
 Synonyms: `voted ballot`
 
 ## <a name="cast-vote-record"></a>cast vote record
 Archival tabulatable [record](#record) of a set of [contest selections](#contest-selection) produced by a single [voter](#voter) as interpreted by the [voting system](#voting-system).
-
-
-
 
 Synonyms: `CVR`
 
