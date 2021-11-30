@@ -3,9 +3,8 @@
 <script src="https://pages.nist.gov/nist-header-footer/js/nist-header-footer.js" type="text/javascript" defer="defer"></script>
 
 # Election Terminology Glossary
-> This glossary contains election terms including those used in the  Voluntary Voting System Guidelines 2.0 (VVSG 2.0) requirements and glossary, and in the NIST Common Data Format (CDF) specifications.  The glossary was  built via a joint effort by The Democracy Fund, the VVSG Election Modeling public working group, NIST, and other individuals in the election community.  The Democracy Fund in particular has recognized that a glossary of common election terms would help states and others working in elections to all "speak the same language."  The glossary provides synonyms and as much as is possible, descriptions of how a term's meaning may differ depending on its usage across different states and territories.
+> This glossary contains election terms including those used in the  Voluntary Voting System Guidelines 2.0 (VVSG 2.0) requirements and glossary and in the NIST Common Data Format (CDF) specifications.  The glossary was  built via a joint effort by The Democracy Fund, the VVSG Election Modeling public working group, NIST, and other individuals in the election community.  The Democracy Fund in particular has recognized that a glossary of common election terms would help states and others working in elections to all "speak the same language."  The glossary provides synonyms and as much as is possible, descriptions of how a term's meaning may differ depending on its usage across different states and territories.
 
-<font size="+2">A:</font>
 
 ## <a name="absentee-ballot"></a>absentee ballot
 [Ballot](#ballot) used for [absentee voting](#absentee-voting).
@@ -18,7 +17,6 @@ Voting that is typically unsupervised at a location chosen by the [voter](#voter
 
 
 Synonyms: `all-mail voting`, `mail voting`, `postal voting`, `vote-by-mail`
-
 
 ## <a name="access-control"></a>access control
 The process of granting or denying specific requests to:
@@ -42,10 +40,9 @@ Formal recognition that a laboratory is competent to carry out specific [tests](
 
 
 ## <a name="accreditation-body"></a>accreditation body
-1. Authoritative body that provides [accreditation](#accreditation).
-2. Independent organization responsible for
- - assessing the performance of other organizations against a recognized [standard](#standard), and
- - formally confirming the status of those that meet the standard.
+ 1. Authoritative body that provides [accreditation](#accreditation).
+ 2. Independent organization responsible for assessing the performance of other organizations against a recognized [standard](#standard), and
+ 3. formally confirming the status of those that meet the standard.
 
 
 ## <a name="activation-device"></a>activation device
@@ -186,7 +183,8 @@ A [contest option](#contest-option) that specifies a response to a [ballot measu
 A process that produces a [paper ballot](#paper-ballot) of the required [ballot style](#ballot-style) that meets a specific [voter](#voter)'s needs. The use of this process requires:
  - a system with a printer that can create a tabulatable paper ballot; and
  - a [device](#device) driving the printer that has all the data needed to print each ballot style and allows selection of the needed style.
- Note: "ballot on demand" is a registered trademark of ES&S.
+
+Note: "ballot on demand" is a registered trademark of ES&S.
 
 
 Synonyms: `BOD`
@@ -218,7 +216,6 @@ An optical, machine-readable representation of data as a sequence of bars and sp
 
 ## <a name="baseline-voting"></a>baseline voting
 A [vote variation](#vote-variation) in which the [candidate](#candidate) with the most [votes](#vote) wins. In single-seat [contests](#contest), the [voter](#voter) may only select one [contest option](#contest-option).  In [multi-seat contests](#multi-seat-contest) for n [seats](#seat), the voter may select up to n contest options.
-
 
 
 Synonyms: `Plurality voting`
@@ -279,8 +276,8 @@ The process of compiling, reviewing, and validating [election](#election) return
 ## <a name="cast-ballot"></a>cast ballot
 [Ballot](#ballot) in which the [voter](#voter) has taken final action in selecting [contest options](#contest-option) and irrevocably confirmed their intent to [vote](#vote) as selected.
 
-Synonyms: `voted ballot`
 
+Synonyms: `voted ballot`
 
 ## <a name="cast-vote-record"></a>cast vote record
 Archival tabulatable [record](#record) of a set of [contest selections](#contest-selection) produced by a single [voter](#voter) as interpreted by the [voting system](#voting-system).
@@ -324,8 +321,7 @@ Synonyms: `CDF`
 
 ## <a name="Common-Industry-Format"></a>Common Industry Format
 Format used for [usability](#usability) [test](#test) reporting.
- The format is described in ISO/IEC 25062:2006 "Common Industry Format (CIF) for Usability Test Reports," one of a group of usability [standards](#standard).
- CIF is the format required for usability test reporting.
+The format is described in ISO/IEC 25062:2006 "Common Industry Format (CIF) for Usability Test Reports," one of a group of usability [standards](#standard). CIF is the format required for usability test reporting.
 
 
 Synonyms: `CIF`
@@ -347,7 +343,7 @@ Fulfilling specified requirements by a product, process, or service.
 
 
 ## <a name="conformance-testing"></a>conformance testing
-Process of testing [device](#device) or system of devices against the requirements specified in one or more [standards](#standard). The outcomes of a [conformance](#conformance) [test](#test) are generally a pass or fail result, possibly including [reports](#report) of problems encountered during the execution.
+Process of testing a [device](#device) or system of devices against the requirements specified in one or more [standards](#standard). The outcomes of a [conformance](#conformance) [test](#test) are generally a pass or fail result, possibly including [reports](#report) of problems encountered during the execution.
 
 
 Synonyms: `conformity assessment`
@@ -368,8 +364,9 @@ Synonyms: `ballot marking target area`, `ballot selection position`, `target`, `
 
 ## <a name="contest-option-vote"></a>contest option vote
 [Vote](#vote) that will be [tabulated](#tabulate) for a particular [contest option](#contest-option).
- This term was previously referred to as [valid vote](#valid-vote).
 
+
+Synonyms: `valid vote`
 
 ## <a name="contest-selection"></a>contest selection
 A selection made on the [ballot](#ballot) by a [voter](#voter) with respect to a specific single [contest](#contest) (for example, a [candidate](#candidate), the value "Yes" or "Approve").
@@ -395,11 +392,11 @@ Synonyms: `tabulated ballot`, `tallied ballot`
 
 Synonyms: `cross filing`
 
-## <a name="cryptographic-end-to-end-voting-system"></a>cryptographic end-to-end voting system
-A [voting system](#voting-system) that supports both [voter](#voter) verification and election verification.
+## <a name="cryptographic-end-to-end-voting-system"></a>cryptographic end-to-end (E2E) verifiable voting systems
+A [voting system](#voting-system) that uses cryptographic techniques to store an encrypted copyvof the voter's ballot selections while maintaining ballot secrecy and allows elections outcomes to be independently and universally verified by members of the public. These voting systems provide voters with a special receipt of their cast ballot - one that allows them to verify their vote was included in the outcome but does not reveal to anyone how they voted.
 
 
-Synonyms: `E2E`
+Synonyms: `receipt-based systems`
 
 ## <a name="cryptographic-hash"></a>cryptographic hash
 A cryptographic algorithm that computes a numerical hash value based on a data file or electronic message. It should be infeasible in practice to find two distinct data files or messages that will result in the same numerical hash value. The numerical value can be considered to be a fingerprint of the file or message. Colloquially known as a hash, hash function, or digital fingerprint. Hashes provide integrity protection.
@@ -414,7 +411,7 @@ Discipline that embodies the principles, means, and methods for transforming dat
 
 
 ## <a name="cumulative-voting"></a>cumulative voting
-A [vote variation](#vote-variation) used in n-seat [contests](#contest) where a [voter](#voter) is permitted to distribute n [votes](#vote) to one or more [contest options](#contest-option). Two major variations are used in American [elections](#election), one of which may result in fractional votes.
+A [vote variation](#vote-variation) used in multi-seat [contests](#contest) where a [voter](#voter) is permitted to distribute allowed selections to 1 or more candidates in whole vote increments.
 
 
 ## <a name="cybersecurity"></a>cybersecurity
@@ -442,7 +439,7 @@ A data set used to identify the holder of the certification and to verify, using
 
 
 ## <a name="digital-signature"></a>digital signature
-A cryptographic operation where the [private key](#private-key) is used to digitally sign an electronic document and the [public key](#public-key) is used to verify the signature. Digital signatures provide data [authentication](#authentication) and integrity protection.
+A cryptographic operation where a [private key](#private-key) is used to digitally sign an electronic document and the associated [public key](#public-key) is used to verify the signature. Digital signatures provide data [authentication](#authentication) and integrity protection.
 
 
 ## <a name="direct-recording-electronic-voting-machine"></a>direct recording electronic voting machine
@@ -454,6 +451,12 @@ A [vote-capture device](#vote-capture-device) that allows:
 
 
 Synonyms: `DRE`
+
+## <a name="direct-voter-associations"></a>direct voter associations
+A voter's personally identifiable information (PII) created or stored by the voting system that can be used to associate a voter with their ballot selections.  Examples include first name, last name, address, driver's license, voter registration number, and other PII
+
+
+Synonyms: `PII`
 
 ## <a name="early-voting"></a>early voting
 Voting that occurs prior to [election day](#election-day) under the supervision of [election workers](#election-worker).
@@ -476,7 +479,7 @@ A formal process in which qualified [voters](#voter) select [candidates](#candid
 
 
 ## <a name="Election-Assistance-Commission"></a>Election Assistance Commission
-Election Assistance Commission, created by the [Help America Vote Act](#Help-America-Vote-Act) (HAVA) to assist the states regarding HAVA compliance and to distribute HAVA funds to the states. The EAC is also charged with creating [voting system](#voting-system) guidelines and operating the federal government's first voting system certification program. The EAC is also responsible for maintaining the National Voter Registration form, conducting research, and administering a national clearinghouse on [elections](#election) that includes shared practices, information for [voters](#voter), and other resources to improve elections.
+Election Assistance Commission, created by the [Help America Vote Act](#Help-America-Vote-Act) (HAVA) to assist the states regarding HAVA compliance and to distribute HAVA funds to the states. The EAC is also charged with creating [voting system](#voting-system) guidelines and operating the Federal Government's first voting system certification program. The EAC is also responsible for maintaining the National Voter Registration form, conducting research, and administering a national clearinghouse on [elections](#election) that includes shared practices, information for [voters](#voter), and other resources to improve elections.
 
 
 Synonyms: `EAC`
@@ -494,7 +497,7 @@ Data used in defining an [election](#election), including [election districts](#
 
 
 ## <a name="election-definition-medium"></a>election definition medium
-Programmed memory [device](#device) containing all applicable [election definition](#election-definition) data required by the [election system](#election-system) [component](#component) where the device will be used.
+Programmed memory component containing all applicable [election definition](#election-definition) data required by an [election system](#election-system) device.
 
 
 ## <a name="election-district"></a>election district
@@ -502,7 +505,7 @@ Administrative area in which [voters](#voter) are entitled to [vote](#vote) in [
 
 
 ## <a name="election-jurisdiction"></a>election jurisdiction
-A geographical area to which a practical authority has been granted to administer [elections](#election) for political or administrative [offices](#office). Areas of jurisdiction apply to local, state, and federal levels. States, counties, cities, [towns](#town), and [townships](#township) are all examples of jurisdictions.
+A geographical area to which an authorized authority has been granted to administer [elections](#election) for political or administrative [offices](#office). Areas of jurisdiction apply to local, state, and federal levels. States, counties, cities, [towns](#town), and [townships](#township) are all examples of jurisdictions.
 
 
 ## <a name="election-management-system"></a>election management system
@@ -520,8 +523,6 @@ Synonyms: `EMS`
 ## <a name="election-official"></a>election official
 Any person who is involved with administering or conducting an [election](#election), including government personnel and temporary [election workers](#election-worker). This may include any county clerk and recorder, election judge, member of a [canvassing](#canvass) board, central election official, [election day](#election-day) worker, member of a board of county commissioners, member or secretary of a board of directors authorized to conduct public elections, representative of a governing body, or other person engaged in the performance of election duties as required by the election code.
 
-
-Synonyms: `EO`
 
 ## <a name="election-programming"></a>election programming
 Process by which [election officials](#election-official) or their designees use [voting system software](#voting-system-software) to create the [election definition](#election-definition) and configure all [election definition medium](#election-definition-medium) for use in a specific [election](#election).
@@ -549,6 +550,8 @@ Synonyms: `ENR`, `ERR`, `election night reporting`
 ## <a name="election-worker"></a>election worker
 Any person who interacts with those coming to [vote](#vote). This includes any [poll](#polling-place) worker, [election day](#election-day) worker, [early voting](#early-voting) worker, or other temporary staff engaged in supporting the voting or vote counting process.
 
+
+Synonyms: `poll worker`
 
 ## <a name="electronic-ballot-delivery"></a>electronic ballot delivery
 The delivery of [ballot](#ballot) and [voter](#voter) information packets electronically. The MOVE Act requires each state to provide for the electronic delivery (via fax, email, or an Internet-supported application) of ballots and related information from the local election office to the registered [UOCAVA voter](#UOCAVA-voter).
@@ -589,7 +592,7 @@ Approval by a [political party](#political-party), for example, as the [candidat
 
 
 ## <a name="enhanced-visual-format"></a>enhanced visual format
-An alternative visual display format supporting personal choices such as text size, color contrast, and preferred language.
+A display format that is an alternative visual format supporting personal screen display choices such as text size, color contrast, and preferred language.
 
 
 ## <a name="error-correction-code"></a>error correction code
@@ -620,7 +623,7 @@ Synonyms: `XML`
 
 ## <a name="extraneous-mark"></a>extraneous mark
 A mark on a [paper ballot](#paper-ballot) that appears to be unrelated to the act of indicating a [voter](#voter)'s selection. Examples include:
-  a mark made unintentionally by a voter that is obviously not related to making a selection; a hesitation mark, a dot within or outside of the [contest option position](#contest-option-position) made by resting a pen or pencil on the [ballot](#ballot); written notes or identifying information not related to indication of the voter's selection; or printing defects.
+a mark made unintentionally by a voter that is obviously not related to making a selection; a hesitation mark, a dot within or outside of the [contest option position](#contest-option-position) made by resting a pen or pencil on the [ballot](#ballot); written notes or identifying information not related to indication of the voter's selection; or printing defects.
 
 
 Synonyms: `inadvertent mark`, `random mark`, `stray mark`
@@ -628,7 +631,7 @@ Synonyms: `inadvertent mark`, `random mark`, `stray mark`
 ## <a name="failure"></a>failure
 Looking at [voting system](#voting-system) reliability, a failure is an event that results in:
  - loss of one or more functions,
- - degradation of performance resulting in a [device](#device) that is unable to perform its intended function for longer than 10 seconds,
+ - degradation of performance resulting in a [device](#device) that is unable to perform its intended function,
  - automatic reset, restart, or reboot of the [voting device](#voting-device), operating system or application software, requiring an unanticipated intervention by a person in the role of [election worker](#election-worker) or technician before normal operation can continue, or
  - error messages or audit log entries indicating that a failure has occurred.
 
@@ -691,6 +694,10 @@ Describes units of geopolitical geography so that they can be associated with [c
 
 Synonyms: `GpUnit`
 
+## <a name="graceful-recovery"></a>graceful recovery
+Termination of a process that allows the operating system or parent process to regain normal control.  Does no crash the machine or result in a general protection fault (GPF) or blue screen.  The user is not required to close the application and can continue to use the other functionality.
+
+
 ## <a name="hand-count"></a>hand-count
 Counting ballot sheets and/or selections on [ballot](#ballot) sheets by human examination.
 
@@ -723,6 +730,10 @@ Without assistance from an [election worker](#election-worker) or other person.
 The mechanism by which a selection for a specific [contest option](#contest-option) automatically selects other linked contest options. An example is a straight party selection that causes indirect selections for all contest options of the identified party.
 
 
+## <a name="military-voter"></a>military voter
+A unique identifier used to associate a voter with their ballot selections.  Indirect associations do not include PII.
+
+
 ## <a name="information-security"></a>information security
 Protecting information and information systems from unauthorized access, use, disclosure, disruption, modification, or destruction in order to provide integrity, [confidentiality](#confidentiality), and availability.
 
@@ -734,7 +745,7 @@ Examination of a product design, product, process, or installation and determina
 
 
 ## <a name="interaction-mode"></a>interaction mode
-A specific combination of display format and control or navigation options that enable [voters](#voter) to perceive and interact with the [voting system](#voting-system).
+Control or navigation option that enables [voters](#voter) to operate and interact with the [voting system](#voting-system), used in conjunction with a display format.
 
 
 ## <a name="interoperability"></a>interoperability
@@ -753,6 +764,10 @@ Activities involving handling of [cryptographic keys](#cryptographic-key) and ot
 
 ## <a name="life-cycle"></a>life cycle
 Systems engineering concept that identifies the phases that a system passes through, from concept to retirement. There are different concerns and activities associated with each phase of the life cycle.
+
+
+## <a name="limited-dexterity-mode"></a>limited dexterity mode
+An interaction mode with accessibility features for voters with no use of one or both hands or low dexterity.  This mode includes the tactile mode and the non-manual mode.
 
 
 ## <a name="locality"></a>locality
@@ -796,7 +811,7 @@ Software or [firmware](#firmware) intended to perform an unauthorized process th
 Synonyms: `malicious code`
 
 ## <a name="manually-marked-paper-ballot"></a>manually-marked paper ballot
-[Paper ballot](#paper-ballot) marked by a [voter](#voter) using a writing utensil. The paper ballot is the independent [voter verifiable](#voter-verifiable) [record](#record).
+[Paper ballot](#paper-ballot) marked by a [voter](#voter) using a writing utensil.
 
 
 Synonyms: `MMPB`
@@ -813,6 +828,10 @@ Synonyms: `marginal mark`
 
 ## <a name="marked-ballot"></a>marked ballot
 [Ballot](#ballot) that contains all of a [voter](#voter)'s selections.
+
+
+## <a name="message-authentication-code"></a>message authentication
+A data authenticator generated from the message, usually though cryptographic techniques, that is designed to reveal both accidental errors and intentional modifications of the data.  In general, a cryptographic key is also required as an input.
 
 
 ## <a name="military-voter"></a>military voter
@@ -843,8 +862,7 @@ Term as used in [election](#election) contexts to signify a jurisdiction such as
 
 
 ## <a name="N-of-M-voting"></a>N-of-M voting
-[Vote variation](#vote-variation) in which the [voter](#voter) is entitled to allocate a fixed number of [votes](#vote) (N) over a list of M [contest options](#contest-option) or [write-in options](#write-in-option), with the constraint that at most 1 vote may be allocated to a given contest option. This usually occurs when multiple [seats](#seat) are concurrently being filled in a governing body such as a city council or school board where [candidates](#candidate) contend for at-large seats. The voter is not obliged to allocate all N votes.
- 1-of-M is N-of-M voting where N = 1.
+[Vote variation](#vote-variation) in which the [voter](#voter) is entitled to allocate a fixed number of [votes](#vote) (N) over a list of M [contest options](#contest-option) or [write-in options](#write-in-option), with the constraint that at most 1 vote may be allocated to a given contest option. This usually occurs when multiple [seats](#seat) are concurrently being filled in a governing body such as a city council or school board where [candidates](#candidate) contend for at-large seats. The voter is not obliged to allocate all N votes. 1-of-M is N-of-M voting where N = 1.
 
 
 ## <a name="national-certification-test-report"></a>national certification test report
@@ -856,6 +874,10 @@ Federal organization tasked with assisting in the development of [voting system]
 
 
 Synonyms: `NIST`
+
+## <a name="non-manual-mode"></a>non-manual-mode
+An interaction mode that uses assistive technology, for example, a sip-and-puff switch, to allow voters with no use of their hands to operate the voting system.
+
 
 ## <a name="non-party-specific-contest"></a>non-party-specific contest
 [Contest](#contest) where eligibility to [vote](#vote) in that contest is independent of [political party](#political-party) affiliation.
@@ -899,12 +921,12 @@ Synonyms: `pick-your-party primary`
 Computer software with its [source code](#source-code) (human readable code) made available with a license in which the copyright holder provides the rights to study, change, and distribute the software to anyone and for any purpose. Open source software may:
  - be developed in a collaborative public manner;
  - be reviewed by multiple professional and amateur programmers;
- - require a fee and be licensed like other software;
+ - require a fee and be licensed like other software; or
  - be fully open source or may have only a portion of the software open source.
 
 
 ## <a name="optical-scan"></a>optical scan
-[Voting system](#voting-system) that [tabulates](#tabulate) [votes](#vote) marked in [contest option positions](#contest-option-position) on the surface of a [paper ballot](#paper-ballot).
+[Voting system](#voting-system) that [tabulates](#tabulate) [votes](#vote) marked in [contest option positions](#contest-option-position) or contained with a barcode on the surface of a [paper ballot](#paper-ballot).
 
 
 ## <a name="overseas-voter"></a>overseas voter
@@ -927,6 +949,10 @@ A single piece of paper that forms part of a [paper ballot](#paper-ballot). Pape
 
 ## <a name="paper-ballot-side"></a>paper ballot side
 The face of a [paper ballot sheet](#paper-ballot-sheet). A [paper ballot](#paper-ballot) may have two sides.
+
+
+## <a name="paper-based-voting-system"></a>paper-based voting system
+A voting system that records votes, counts votes, and/or produces a report of the vote count from votes cast on paper cards or sheets.
 
 
 ## <a name="partisan-office"></a>partisan office
@@ -956,18 +982,22 @@ Synonyms: `Pen Testing`
 
 
 ## <a name="personal-identifiable-information"></a>personal identifiable information
-Any information about an individual maintained by an agency, including:
+Any information about an individual including:
  - information that can be used to distinguish or trace an individual's identity, such as name, social security number, date and place of birth, mother's maiden name, or biometric [records](#record); and
  - any other information that can be linked to an individual, such as medical, educational, financial, and employment information.
 
 
-Synonyms: `PII`
+Synonyms: `PII`, `voter identifying information`, `VII`
 
 ## <a name="physical-configuration-audit"></a>physical configuration audit
 [Inspection](#inspection) by a [voting system test lab](#voting-system-test-lab) (VSTL) that compares the [voting system](#voting-system) [components](#component) submitted for [certification testing](#certification-testing) to the [manufacturer](#manufacturer)'s technical documentation and confirms that the documentation submitted meets the national certification requirements. Includes witnessing the executable system being built to ensure that the certified release is built from the [tested](#test) components.
 
 
 Synonyms: `PCA`
+
+## <a name="plurality-voting"></a>plurality voting
+A [vote variation](#vote-variation) in which the candidate with the most votes wins, without necessarily receiving a majority of votes.
+
 
 ## <a name="political-party"></a>political party
 An association of individuals under whose name a [candidate](#candidate) may appear on a [ballot](#ballot).
@@ -998,7 +1028,7 @@ A post-election [audit](#audit) that involves hand-counting a sample of [votes](
 [Election](#election) administration division corresponding to a geographic area that is the basis for determining which [contests](#contest) the [voters](#voter) legally residing in that area are eligible to [vote](#vote) on.
 
 
-Synonyms: `polling district`, `tabulation district`
+Synonyms: `tabulation district`, `ward`
 
 ## <a name="precinct-count"></a>precinct count
 Counting ballots in the same [precinct](#precinct) in which those [ballots](#ballot) have been [cast](#cast).
@@ -1064,10 +1094,14 @@ An abbreviated logic and accuracy [test](#test) of voting equipment, pre-announc
 
 
 ## <a name="QR-Code®"></a>QR Code®
-An optical, 2-D machine-readable representation of data that conform to the accepted [standard](#standard).
+A 2-D, trademarked barcode.  An optical, 2-D machine-readable representation of data that conforms to accepted [standards](#standard).
 
 
 Synonyms: `Quick Response code`
+
+## <a name="range voting"></a>range voting
+A [vote variation](#vote-variation) for single-seat contests, in which voters give each candidate a score, the scores are added (or averaged), and the candidate with the highest total is elected.
+
 
 ## <a name="ranked-choice-voting"></a>ranked choice voting
 A [vote variation](#vote-variation):
@@ -1134,7 +1168,7 @@ The ability to recover gracefully from error conditions and unexpected circumsta
 
 
 ## <a name="reviewed-ballot"></a>reviewed ballot
-[Contest selections](#contest-selection) and if applicable unselected [contest options](#contest-option) that have been checked by the [voter](#voter) before casting, to determine if they match [voter intent](#voter-intent).
+Ballot that has been reviewed (either electronically or by the voter) before it is cast, to determine what [contest selections](#contest-selection) and if applicable unselected [contest options](#contest-option) it contains.
 
 
 ## <a name="risk-assessment"></a>risk assessment
@@ -1178,7 +1212,7 @@ A metric associated with the amount of work (that is, the number of operations) 
 
 
 ## <a name="software-independence"></a>software independence
-Quality of a [voting system](#voting-system) or [voting device](#voting-device) where a previously undetected change or [fault](#fault) in software cannot cause an undetectable change or error in [election](#election) outcome.
+Quality of a [voting system](#voting-system) or [voting device](#voting-device) where a previously undetected change or [fault](#fault) in software cannot cause an undetectable change or error in [election](#election) outcome. In practice, voting systems are generally viewed as possessing the quality of software independence when they allow for a voter-verifiable paper record of voters' contest selections to be created and compared against vote totals or against an electronic cast vote record used in determining vote totals.
 
 
 Synonyms: `SI`
@@ -1208,8 +1242,7 @@ A document that provides requirements, specifications, guidelines, or characteri
 
 
 ## <a name="straight-party-override"></a>straight party override
-Explicit [voter](#voter) selection that overrides or supplements the [vote](#vote) selections made by a [straight party voting](#straight-party-voting) option.
- Straight party overrides may be subject to state [election](#election) rules for how they work or whether they are allowed.
+Explicit [voter](#voter) selection that overrides or supplements the [vote](#vote) selections made by a [straight party voting](#straight-party-voting) option.  Straight party overrides may be subject to state [election](#election) rules for how they work or whether they are allowed.
 
 
 ## <a name="straight-party-voting"></a>straight party voting
@@ -1245,12 +1278,11 @@ Process of totaling [votes](#vote).
 Synonyms: `count`
 
 ## <a name="tabulation-report"></a>tabulation report
-A [report](#report) containing the counts associated with [ballots](#ballot) tabulated for a given [election district](#election-district).
+A [report](#report) containing the counts associated with [ballots](#ballot) that have been tabulated.
 
 
 ## <a name="tactile-controls"></a>tactile controls
-Tactile controls are discernable or perceptible by touch using hands, feet, or other parts of the body. (Does not include touch screens.)
- Dual switches are a form of tactile controls that can be used by [voters](#voter) with minimal use of their hands.
+A tactile control is a physically control discernable or perceptible by touch using hands, feet, or other parts of the body. (Does not include touch screens.)  Dual switches are a form of tactile controls that can be used by [voters](#voter) with minimal use of their hands.
 
 
 ## <a name="technical-data-package"></a>technical data package
@@ -1304,7 +1336,7 @@ A widely used unit of local government in the United States, subordinate to a co
 Synonyms: `civil township`
 
 ## <a name="undervote"></a>undervote
-Occurs when the number of [voter](#voter) selections in a [contest](#contest) is less than the maximum number allowed for that contest or when no selection is made. The number of undervotes is equal to the number of [votes](#vote) lost, for example, if one selection is made in a vote for 3 out of 5 [candidates](#candidate) contest, the number of undervotes or votes lost is two.
+Occurs when the number of [voter](#voter) selections in a [contest](#contest) is less than the maximum number allowed for that contest or when no selection is made. The number of undervotes is equal to the number of [votes](#vote) lost, for example, if no selection is made in a vote for two contest, the number of votes lost is two.
 
 
 Synonyms: `under-vote`
@@ -1340,7 +1372,7 @@ Process of evaluating a system or [component](#component) during or at the end o
 
 
 ## <a name="visual-format"></a>visual format
-A display format in which [contest options](#contest-option) and other information are displayed on screen or paper for perception using sight.
+A display format in which information is displayed on screen or paper for perception using sight.
 
 
 ## <a name="vote"></a>vote
@@ -1352,7 +1384,7 @@ A physical location where [voters](#voter) from multiple [precincts](#precinct) 
 
 
 ## <a name="vote-variation"></a>vote variation
-Voting style or feature, including but not limited to the following: [approval voting](#approval-voting), [baseline voting](#baseline-voting), [cumulative voting](#cumulative-voting), [N-of-M voting](#N-of-M-voting), proportional voting, [ranked choice voting](#ranked-choice-voting), [score voting](#score-voting) and super [majority voting](#majority-voting).
+Voting style or feature, including but not limited to the following: [approval voting](#approval-voting), Borda count, [cumulative voting](#cumulative-voting), [N-of-M voting](#N-of-M-voting), plurality voting, proportional voting, range voting, and [ranked choice voting](#ranked-choice-voting), [score voting](#score-voting).
 
 
 ## <a name="vote-by-mail"></a>vote-by-mail
@@ -1362,7 +1394,7 @@ Method of voting by which [eligible voters](#eligible-voters) are [mailed ballot
 Synonyms: `VBM`, `all-mail voting`, `mail voting`, `postal voting`
 
 ## <a name="vote-capture-device"></a>vote-capture device
-An electronic [voting device](#voting-device) that is used directly by a [voter](#voter) to make selections on a [ballot](#ballot).
+Component of a voting system that captures and/or counts voter selections from paper or electronic ballots.  Vote-capture devices may or may not be directly voter-facing; voter-facing vote-capture devices include ballot marking devices and voter-facing scanners, while non-voter-facing vote-capture devices include batch-fed scanners.
 
 
 ## <a name="voter"></a>voter
@@ -1382,7 +1414,7 @@ A [voting system](#voting-system) feature that provides the [voter](#voter) an o
 
 
 ## <a name="voter-verifiable-paper-audit-trail"></a>voter verifiable paper audit trail
-In [DRE](#direct-recording-electronic-voting-machine) systems, a paper document containing evidence of a [voter](#voter)'s [contest selections](#contest-selection) that they can check before officially [casting](#cast) the [ballot](#ballot).
+A paper document that the voter can review before officially [casting](#cast) their [ballot](#ballot).
 
 
 Synonyms: `VVPAT`
@@ -1392,7 +1424,13 @@ An electronic [voting device](#voting-device) that:
  - accepts hand-marked or BMD-produced [paper ballots](#paper-ballot) one sheet at a time;
  - is usually used for [in-person voting](#in-person-voting);
  - permits [election workers](#election-worker) to open and close the [polls](#polling-place);
-  scans a [ballot](#ballot) and rejects it if either unreadable or un-processable; detects, interprets and validates [contest selections](#contest-selection); notifies the [voter](#voter) of voting exceptions (such as [undervotes](#undervote) or [overvotes](#overvote)) or unreadable marks; stores accepted ballots in a secure container; sorts or otherwise marks ballots or [ballot images](#ballot-image) that need subsequent human review; and [tabulates](#tabulate) and [reports](#report) [contest](#contest) results after polls are closed.  This unit was previously referred to as [precinct count](#precinct-count) optical scanner or PCOS.
+ - scans a [ballot](#ballot) and rejects it if either unreadable or un-processable;
+ - detects, interprets and validates [contest selections](#contest-selection);
+ - notifies the [voter](#voter) of voting exceptions (such as [undervotes](#undervote) or [overvotes](#overvote)) or unreadable marks;
+ - stores accepted ballots in a secure container; sorts or otherwise marks ballots or [ballot images](#ballot-image) that need subsequent human review; and
+ - [tabulates](#tabulate) and [reports](#report) [contest](#contest) results after polls are closed.  
+
+ This unit was previously referred to as [precinct count](#precinct-count) optical scanner or PCOS.
 
 
 Synonyms: `PCOS`, `precinct-count optical scanner`
@@ -1415,18 +1453,18 @@ The location within a [polling place](#polling-place) where [voters](#voter) may
 
 ## <a name="voting-system"></a>voting system
 Equipment (including [hardware](#hardware), [firmware](#firmware), and software), materials, and documentation used to:
- - define elections and [ballot styles](#ballot-style),
- - configure voting equipment,
- - identify and validate voting equipment configurations,
- - perform logic and accuracy [tests](#test),
- - activate [ballots](#ballot),
- - capture [votes](#vote),
- - [count](#tabulate) votes,
- - handle needing special treatment,
- - generate [reports](#report),
- - export election data,
- - archive election data, and
- - and produce [records](#record) in support of audits.
+ 1. define elections and [ballot styles](#ballot-style),
+ 2. configure voting equipment,
+ 3. identify and validate voting equipment configurations,
+ 4. perform logic and accuracy [tests](#test),
+ 5. activate [ballots](#ballot)for voters,
+ 6. record [votes](#vote) cast by voters,
+ 7. [count](#tabulate) votes,
+ 8. label ballots needing special treatment,
+ 9. generate [reports](#report),
+ 10. export election data includng election results,
+ 11. archive election data, and
+ 12. and produce [records](#record) in support of audits.
 
 
 ## <a name="voting-system-software"></a>voting system software
